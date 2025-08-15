@@ -8,16 +8,17 @@ import sys
 import tkinter as tk
 from tkinter import messagebox
 
-from sdf_mesh_aligner.gui_app import main as gui_main
-from sdf_mesh_aligner import print_info
+from sdf_mesh_aligner import HybridAlignmentGUI, print_info
 
 def main():
     """Main entry point"""
     # Print library information
     print_info()
     
-    # Run GUI application
-    gui_main()
+    # Create and run the GUI
+    root = tk.Tk()
+    app = HybridAlignmentGUI(root)
+    root.mainloop()
 
 if __name__ == "__main__":
     main()
