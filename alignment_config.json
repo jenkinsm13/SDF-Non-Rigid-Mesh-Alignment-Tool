@@ -1,0 +1,31 @@
+{
+  "lambda_smooth": 0.1,
+  "lambda_detail": 0.5,
+  "lambda_rigid": 0.01,
+  "sigma": 0.1,
+  "max_iterations": 50,
+  "tolerance": 0.0001,
+  "subsample_ratio": 0.3,
+  "resolutions": [
+    1.0,
+    0.5,
+    0.25
+  ],
+  "use_multires": true,
+  "cache_size": 1000,
+  "max_preview_points": 1000,
+  "enable_progress": true,
+  "window_width": 1200,
+  "window_height": 800,
+  "log_max_lines": 1000,
+  "default_save_format": "ply",
+  "auto_save_results": false,
+  "results_directory": "data/results",
+  "min_vertices": 100,
+  "max_size_ratio": 10.0,
+  "validate_meshes": true,
+  "use_curvature_weighting": true,
+  "outlier_rejection": true,
+  "outlier_threshold": 0.95,
+  "enable_parallel": false
+}
