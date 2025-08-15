@@ -23,7 +23,6 @@ from .core.aligner import SDFMeshAligner, OptimizedSDFMeshAligner
 from .core.mesh_utils import MeshUtils
 from .core.point_cloud_processor import PointCloudProcessor
 from .core.hybrid_aligner import HybridAligner
-from .gui.app import MeshAlignmentGUI
 from .gui.hybrid_gui import HybridAlignmentGUI
 from .config.settings import ConfigManager
 
@@ -38,7 +37,6 @@ __all__ = [
     "MeshUtils",
     "PointCloudProcessor",
     "HybridAligner",
-    "MeshAlignmentGUI",
     "HybridAlignmentGUI",
     "ConfigManager",
     "PerformanceMonitor",

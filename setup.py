@@ -49,7 +49,6 @@ setup(
     entry_points={
         "console_scripts": [
             "sdf-aligner=sdf_mesh_aligner.cli:main",
-            "mesh-aligner-gui=sdf_mesh_aligner.gui_app:main",
         ],
     },
     include_package_data=True,
